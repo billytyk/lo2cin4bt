@@ -67,7 +67,7 @@ flowchart TD
 ------------------------------------------------------------
 - 選項 1-3：調用 BaseDataLoader、BaseBacktester、BaseMetricTracker、BasePlotter
 - 選項 4：調用 BaseAutorunner（自動化回測）
-- 選項 5：調用 BaseWFAAnalyser（滾動前向分析）
+- 選項 5：調用 BaseWFAAnalyser（前向分析）
 - 選項 6：調用 BasePlotter（可視化平台，包含回測與 WFA 可視化）
 
 【版本與變更記錄】
