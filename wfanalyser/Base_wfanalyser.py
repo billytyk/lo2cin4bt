@@ -357,7 +357,7 @@ class BaseWFAAnalyser:
         """顯示歡迎信息"""
         welcome_content = (
             "[bold #dbac30]🚀 lo2cin4bt Walk-Forward Analysis[/bold #dbac30]\n"
-            "[white]滾動前向分析 - 參數優化與策略驗證[/white]\n\n"
+            "[white]前向分析 - 參數優化與策略驗證[/white]\n\n"
             "✨ 功能特色:\n"
             "• 支援標準 Walk-Forward 和 Anchored Walk-Forward\n"
             "• 自動參數優化（Sharpe 和 Calmar）\n"

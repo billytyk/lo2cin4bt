@@ -1,6 +1,6 @@
 {
   "_version": "1.0.0",
-  "_description": "WFA 滾動前向分析配置文件模板",
+  "_description": "WFA 前向分析配置文件模板",
   "wfa_config": {
     "_help": {
       "mode": "WFA 模式：standard (標準滾動) 或 anchored (固定起點滾動)",
@@ -14,7 +14,10 @@
     "train_set_percentage": 0.6,
     "test_set_percentage": 0.2,
     "step_size": 216,
-    "optimization_objectives": ["sharpe", "calmar"],
+    "optimization_objectives": [
+      "sharpe",
+      "calmar"
+    ],
     "output_csv": true
   },
   "dataloader": {
@@ -104,52 +107,100 @@
     "selected_predictor": "X",
     "condition_pairs": [
       {
-        "entry": ["MA1"],
-        "exit": ["MA4"]
+        "entry": [
+          "MA1"
+        ],
+        "exit": [
+          "MA4"
+        ]
       },
       {
-        "entry": ["BOLL1"],
-        "exit": ["BOLL4"]
+        "entry": [
+          "BOLL1"
+        ],
+        "exit": [
+          "BOLL4"
+        ]
       },
       {
-        "entry": ["BOLL3"],
-        "exit": ["BOLL2"]
+        "entry": [
+          "BOLL3"
+        ],
+        "exit": [
+          "BOLL2"
+        ]
       },
       {
-        "entry": ["HL1"],
-        "exit": ["HL4"]
+        "entry": [
+          "HL1"
+        ],
+        "exit": [
+          "HL4"
+        ]
       },
       {
-        "entry": ["PERC1"],
-        "exit": ["PERC4"]
+        "entry": [
+          "PERC1"
+        ],
+        "exit": [
+          "PERC4"
+        ]
       },
       {
-        "entry": ["PERC3"],
-        "exit": ["PERC2"]
+        "entry": [
+          "PERC3"
+        ],
+        "exit": [
+          "PERC2"
+        ]
       },
       {
-        "entry": ["MA4"],
-        "exit": ["MA1"]
+        "entry": [
+          "MA4"
+        ],
+        "exit": [
+          "MA1"
+        ]
       },
       {
-        "entry": ["BOLL4"],
-        "exit": ["BOLL1"]
+        "entry": [
+          "BOLL4"
+        ],
+        "exit": [
+          "BOLL1"
+        ]
       },
       {
-        "entry": ["BOLL2"],
-        "exit": ["BOLL3"]
+        "entry": [
+          "BOLL2"
+        ],
+        "exit": [
+          "BOLL3"
+        ]
       },
       {
-        "entry": ["HL4"],
-        "exit": ["HL1"]
+        "entry": [
+          "HL4"
+        ],
+        "exit": [
+          "HL1"
+        ]
       },
       {
-        "entry": ["PERC4"],
-        "exit": ["PERC1"]
+        "entry": [
+          "PERC4"
+        ],
+        "exit": [
+          "PERC1"
+        ]
       },
       {
-        "entry": ["PERC2"],
-        "exit": ["PERC3"]
+        "entry": [
+          "PERC2"
+        ],
+        "exit": [
+          "PERC3"
+        ]
       }
     ],
     "indicator_params": {
@@ -272,4 +323,3 @@
     "risk_free_rate": 0.04
   }
 }
-
